@@ -1,0 +1,15 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  display: grid;
+}
+.fnt-sm {
+  font-size: 12px;
+}
+.fnt-md {
+  font-size: 18px;
+}
+.fnt-lg {
+  font-size: 24px;
+}
