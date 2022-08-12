@@ -1,9 +1,22 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border: 4px solid red; */
 }
-.container {
+.godfather {
   display: grid;
+  margin: 50px;
 }
+.page-btn {
+  display: grid;
+  grid-template-columns: 11fr 1fr 1fr 1fr 1fr;
+  column-gap: 6px;
+}
+.thick-right {
+  border-right: 1px solid black;
+}
+
+/* BELOW HERE IS WHERE YOU WILL CONTINUE */
+
 .fnt-sm {
   font-size: 12px;
 }
