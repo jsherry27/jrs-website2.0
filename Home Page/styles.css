@@ -9,10 +9,20 @@ body {
 .page-btn {
   display: grid;
   grid-template-columns: 11fr 1fr 1fr 1fr 1fr;
-  column-gap: 6px;
+  position: relative;
+  column-gap: 7px;
 }
 .thick-right {
   border-right: 1px solid black;
+}
+.body-txt {
+  display: grid;
+  grid-template-rows: max-content 1fr 1fr;
+  grid-template-rows: max-content 1fr;
+  justify-items: center;
+}
+.pic-size {
+  width: ;
 }
 
 /* BELOW HERE IS WHERE YOU WILL CONTINUE */
