@@ -9,8 +9,7 @@ body {
 /* BETWEEN HERE IS THE NAV BAR */
 .page-btn {
   display: grid;
-  grid-template-columns: 7fr 1fr 1fr 1fr 1fr;
-  position: relative;
+  grid-template-columns: 7fr repeat(4, min-content);
   column-gap: 10px;
 }
 .fnt-sm {
@@ -20,6 +19,8 @@ body {
 .thick-right {
   border-right: 1px solid black;
   letter-spacing: 1px;
+  margin: 0 0 12px;
+  padding-right: 15px;
 }
 
 /* ABOVE HERE IS THE NAV BAR */
