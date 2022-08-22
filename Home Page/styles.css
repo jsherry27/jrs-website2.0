@@ -24,27 +24,49 @@ body {
 }
 
 /* ABOVE HERE IS THE NAV BAR */
-
-.welcome {
-  display: grid;
-  grid-template-rows: max-content 1fr 1fr 1fr 1fr;
-}
-.first-txt {
-  display: grid;
-  grid-template-rows: 1fr max-content max-content;
-  justify-items: center;
-}
-
-.pic {
+.home-pic1 {
   object-fit: cover;
   width: 100%;
   height: 50vh;
 }
 
-/* BELOW HERE IS WHERE YOU WILL CONTINUE */
+/* WORK ON BELOW HERE */
+
+/*
+.welcome-grid {
+  display: grid;
+  grid-template-columns: min-content max-content;
+  /* grid-template-rows: min-content; */
+/* justify-items: center; */
+/* } */
+.first-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: min-content min-content;
+  padding-top: 40px;
+  justify-items: center;
+}
+.lol {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 75px;
+}
+.omg {
+  margin-top: 0;
+  font-size: 45px;
+  grid-row: 2;
+}
+.home-pic2 {
+  border-radius: 1%;
+  height: 50%;
+  margin-right: 100px;
+  /* margin-left: 80px; */
+}
+
+/* ABOVE HERE IS WHERE YOU WILL CONTINUE */
 
 .fnt-md {
-  font-size: 18px;
+  font-size: 30px;
 }
 .fnt-lg {
   font-size: 54px;
