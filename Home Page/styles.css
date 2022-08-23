@@ -41,26 +41,30 @@ body {
 /* } */
 .first-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: min-content min-content;
+  grid-template-columns: 1fr max-content;
+  /* grid-template-rows: min-content max-content; */
   padding-top: 40px;
   justify-items: center;
 }
 .lol {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
   margin-bottom: 0;
   font-weight: bold;
-  font-size: 75px;
+  font-size: 105px;
 }
 .omg {
+  grid-column: 1 / 3;
   margin-top: 0;
+  padding-top: 30px;
   font-size: 45px;
-  grid-row: 2;
+  /* grid-row: 2; */
 }
 .home-pic2 {
-  border-radius: 1%;
-  height: 50%;
+  border-radius: 2%;
+  height: 50vh;
   margin-right: 100px;
-  /* margin-left: 80px; */
+  object-fit: cover;
 }
 
 /* ABOVE HERE IS WHERE YOU WILL CONTINUE */
