@@ -1,7 +1,8 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 0.5px;
-  background-color: beige;
+  /* background-color: beige; */
+  height: 150vh;
 }
 
 .godfather {
@@ -65,11 +66,37 @@ body {
 
 /* SUBSCRIBE TO TRAVELER'S DIARY */
 
+.center-dis {
+  display: grid;
+  justify-items: center;
+}
+.btn-group {
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content;
+  column-gap: 10px;
+  justify-items: center;
+}
+.nono {
+  border: 1px none;
+  border-radius: 9px;
+  padding: 5px;
+  background-color: rgb(190, 188, 188);
+  letter-spacing: 1px;
+}
+.btn-change {
+  border: 1px none;
+  border-radius: 9px;
+  padding: 5px 10px;
+  background-color: rgb(57, 57, 141);
+  color: white;
+  letter-spacing: 1px;
+}
+
 /* WORK ABOVE HERE */
 
-.fnt-md {
-  font-size: 30px;
+.fnt24 {
+  font-size: 24px;
 }
-.fnt-lg {
-  font-size: 54px;
+.margin0 {
+  margin-bottom: 0;
 }
