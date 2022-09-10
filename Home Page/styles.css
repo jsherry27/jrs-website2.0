@@ -1,17 +1,17 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 0.5px;
-  /* background-color: beige; */
-  height: 100vh;
+  background-color: beige;
+  /* height: 100vh; */
 }
 
 .godfather {
   display: grid;
-  height: 100vh;
+  /* height: 100vh; */
   margin: 20px;
 }
 
-/* BELOW HERE IS THE NAV BAR */
+/* THE NAV BAR  BELOW */
 
 .page-btn {
   display: grid;
@@ -29,7 +29,7 @@ body {
   padding-right: 15px;
 }
 
-/* ABOVE HERE IS THE NAV BAR */
+/* NAV BAR ABOVE */
 
 .home-pic1 {
   object-fit: cover;
@@ -62,7 +62,7 @@ body {
   object-fit: cover;
 }
 
-/* SUBSCRIBE TO TRAVELER'S DIARY */
+/* SUBSCRIBE TO TRAVELER'S DIARY BELOW */
 
 .center-dis {
   display: grid;
@@ -91,7 +91,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* WORK ABOVE HERE */
+/* SUBSCRIBE TO TRAVELER'S DIARY ABOVE */
 
 .fnt24 {
   font-size: 24px;
