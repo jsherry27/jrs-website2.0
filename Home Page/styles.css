@@ -5,26 +5,25 @@ body {
   /* height: 100vh; */
 }
 
-.godfather {
+.container {
   display: grid;
-  /* height: 100vh; */
   margin: 20px;
 }
 
 /* THE NAV BAR  BELOW */
 
-.page-btn {
+.navBar {
   display: grid;
   grid-template-columns: 7fr repeat(4, min-content);
   column-gap: 10px;
-}
-.fnt-sm {
   font-size: 12px;
   letter-spacing: 1px;
 }
-.thick-right {
+.navBarLink {
+  text-decoration: none;
+}
+.blkLine {
   border-right: 1px solid black;
-  letter-spacing: 1px;
   margin: 0 0 12px;
   padding-right: 15px;
 }
@@ -75,14 +74,14 @@ body {
   justify-items: center;
   margin-bottom: 20px;
 }
-.nono {
+.userInfo {
   border: 1px none;
   border-radius: 9px;
   padding: 8px 12px;
   background-color: rgb(190, 188, 188);
   letter-spacing: 1px;
 }
-.btn-change {
+.joinAdventure {
   border: 1px none;
   border-radius: 9px;
   padding: 5px 10px;
@@ -95,7 +94,5 @@ body {
 
 .fnt24 {
   font-size: 24px;
-}
-.margin0 {
   margin-bottom: 0;
 }
