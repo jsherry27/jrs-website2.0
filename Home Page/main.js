@@ -1,3 +1,5 @@
+// Below here is targeting where the userInfo goes
+
 let firstNameValue = "";
 let lastNameValue = "";
 let emailValue = "";
