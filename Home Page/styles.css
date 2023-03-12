@@ -10,7 +10,7 @@ body {
   margin: 20px;
 }
 
-/* THE NAV BAR  BELOW */
+/* ----------- NAV BAR BELOW ----------------- */
 
 .navBar {
   display: grid;
@@ -29,7 +29,7 @@ body {
   padding-right: 15px;
 }
 
-/* NAV BAR ABOVE */
+/* ----------- NAV BAR ABOVE ----------------- */
 
 .home-pic1 {
   object-fit: cover;
@@ -57,7 +57,7 @@ body {
   grid-column: 1 / 3;
   margin-top: 0;
   padding-top: 30px;
-  font-size: 45px;
+  font-size: 30px;
 }
 
 /* SUBSCRIBE TO TRAVELER'S DIARY BELOW */

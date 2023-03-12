@@ -27,14 +27,3 @@ bigBtn.addEventListener("click", (e) => {
     email: emailValue,
   });
 });
-const x = 4;
-// const y = 5;
-// const z = "fizzbuzz";
-
-if (x <= 3) {
-  console.log("buzz");
-} else if (x >= 7) {
-  console.log("fiz");
-} else {
-  console.log("GAY");
-}
