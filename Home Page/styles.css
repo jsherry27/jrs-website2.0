@@ -19,24 +19,31 @@ body {
   font-size: 12px;
   letter-spacing: 1px;
 }
-
 .navBar a {
   text-decoration: none;
 }
 .blkLine {
   border-right: 1px solid black;
   margin: 0 0 12px;
-  padding-right: 15px;
+  padding-right: 12px;
 }
-
+.center {
+  display: grid;
+  border-right: 1px solid black;
+  margin: 0 0 12px;
+  padding-right: 9px;
+  align-content: center;
+}
 /* ----------- NAV BAR ABOVE ----------------- */
 
-.home-pic1 {
+.main-pic {
   object-fit: cover;
   width: 100%;
   height: 50vh;
 }
-
+#title {
+  text-align: center;
+}
 .first-grid {
   display: grid;
   grid-template-columns: 1fr max-content;
@@ -48,9 +55,10 @@ body {
   font-size: 90px;
 }
 .home-pic2 {
-  border-radius: 40px;
-  height: 50vh;
   object-fit: cover;
+  border-radius: 200px;
+  height: 60vh;
+  width: 30vw;
 }
 
 .omg {
